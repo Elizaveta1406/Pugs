@@ -11,7 +11,6 @@ def parse():
     description = ''
     for data in block: # проходим циклом по содержимому контейнера
         if data.find('div'): # находим тег <p>
-            description = data.text # записываем в переменную содержание тега
-
+            description = data.text # записываем в переменную содержание тегa
 
     print(description)
